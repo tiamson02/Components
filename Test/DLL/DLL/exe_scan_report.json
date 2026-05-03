@@ -1,0 +1,260 @@
+[
+  {
+    "file": "PainEditor.exe",
+    "size": 2076672,
+    "timestamp": 1121175742,
+    "image_base": "0x400000",
+    "entry_point": "0x4ac359",
+    "sections": [
+      {
+        "name": "",
+        "rva": "0x2c968d00",
+        "vsize": 1318148200,
+        "executable": false,
+        "writable": false
+      },
+      {
+        "name": "",
+        "rva": "0x58680001",
+        "vsize": 1515841623,
+        "executable": false,
+        "writable": true
+      },
+      {
+        "name": "N",
+        "rva": "0xe8570000",
+        "vsize": 76769362,
+        "executable": false,
+        "writable": false
+      },
+      {
+        "name": "Z\u0001",
+        "rva": "0x68510000",
+        "vsize": 356552333,
+        "executable": false,
+        "writable": true
+      },
+      {
+        "name": "\u0004",
+        "rva": "0x868d004e",
+        "vsize": 2438490112,
+        "executable": false,
+        "writable": false
+      }
+    ],
+    "interesting_strings": [
+      "#CurrentLevel#",
+      "%s-Options",
+      "-game editorgame",
+      "../Data/LScripts/Classes/*.lua",
+      "../Data/LScripts/Loader.lua",
+      "../Data/LScripts/Main/Cfg.lua",
+      "../Data/LScripts/Main/Definitions.lua",
+      "../Data/LScripts/Main/Tweak.lua",
+      "../Data/Levels",
+      "../Data/Levels/",
+      "../Data/Levels/%s",
+      "../Data/Levels/%s/%s/%s.*",
+      "../Data/Levels/%s/MapEntities/*.EMesh",
+      "../Data/Levels/*.*",
+      "../Data/Levels/CTF_*.*",
+      "../Data/Levels/DMPCF_*.*",
+      "../Data/Levels/DM_*.*",
+      "../Data/Levels/_Trash_",
+      "../Data/Levels/_Trash_/",
+      "../Data/Levels/_Trash_/%s",
+      "../Data/Textures/Levels/%s",
+      "../Data/_Tmp/Levels",
+      "../Data/_Tmp/Levels/%s",
+      "../Data/_Tmp/Textures/Levels",
+      "../Data/_Tmp/Textures/Levels/%s",
+      "../data/fonts.pak",
+      "../data/items.pak",
+      "../data/levels.pak",
+      "../data/levels/",
+      "../data/maps.pak",
+      "../data/maps1.pak",
+      "../data/maps2.pak",
+      "../data/models.pak",
+      "../data/models1.pak",
+      "../data/scripts.pak",
+      "../data/shaders.pak",
+      "../data/sounds.pak",
+      "../data/sounds1.pak",
+      "../data/textures.pak",
+      "../data/textures1.pak"
+    ]
+  },
+  {
+    "file": "PainServer.exe",
+    "size": 1474560,
+    "timestamp": 1108655655,
+    "image_base": "0x400000",
+    "entry_point": "0x443eed",
+    "sections": [
+      {
+        "name": "F",
+        "rva": "0xcccccccc",
+        "vsize": 3435973827,
+        "executable": false,
+        "writable": true
+      },
+      {
+        "name": "",
+        "rva": "0x575610ec",
+        "vsize": 2211237068,
+        "executable": false,
+        "writable": false
+      },
+      {
+        "name": "R\u00150F",
+        "rva": "0x50102444",
+        "vsize": 2365614593,
+        "executable": false,
+        "writable": false
+      },
+      {
+        "name": "",
+        "rva": "0xe81eb8",
+        "vsize": 91603077,
+        "executable": false,
+        "writable": false
+      },
+      {
+        "name": "t\tu\u0005\u001d",
+        "rva": "0x8d1c2454",
+        "vsize": 2332033256,
+        "executable": false,
+        "writable": true
+      }
+    ],
+    "interesting_strings": [
+      "-game editorgame",
+      "../Data/LScripts/Loader.lua",
+      "../Data/LScripts/Main/Cfg.lua",
+      "../Data/LScripts/Main/Definitions.lua",
+      "../Data/LScripts/Main/Tweak.lua",
+      "../Data/Levels",
+      "../Data/Levels/",
+      "../Data/Levels/CTF_*.*",
+      "../Data/Levels/DMPCF_*.*",
+      "../Data/Levels/DM_*.*",
+      "../data/fonts.pak",
+      "../data/items.pak",
+      "../data/levels.pak",
+      "../data/levels/",
+      "../data/maps.pak",
+      "../data/maps1.pak",
+      "../data/maps2.pak",
+      "../data/models.pak",
+      "../data/models1.pak",
+      "../data/scripts.pak",
+      "../data/shaders.pak",
+      "../data/sounds.pak",
+      "../data/sounds1.pak",
+      "../data/textures.pak",
+      "../data/textures1.pak",
+      "../data/textures2.pak",
+      "??0EngineGame@@QAE@XZ",
+      "??0Script@@QAE@PAUlua_State@@H@Z",
+      "??_7EngineGame@@6B@",
+      "?Game:Pause(false)",
+      "?LevelWaypointsWithFloors@Pathfinder@@QAEXM@Z",
+      "?OurGame@@3P6APAVEngineGame@@XZA",
+      "?RegisterFunction@Script@@QAEXPBDP6AHPAUlua_State@@@Z@Z",
+      "?RegisterLibrary@Script@@QAEXPBDPBUluaL_reg@@_N@Z",
+      "?SaveContents@Pathfinder2@@QAE_NPBDM_N@Z",
+      "?SaveContents@Pathfinder@@QAEHPBDM@Z",
+      "?SaveFloors@Pathfinder2@@QAE_NPBDM@Z",
+      "?SaveFloors@Pathfinder@@QAEHPBDM@Z",
+      "?SetMasterVolumeLevel@MilesEngine@@QAEXM@Z",
+      "?ShowMenu@EngineGame@@QAEXXZ"
+    ]
+  },
+  {
+    "file": "Painkiller.exe",
+    "size": 1847296,
+    "timestamp": 1080250694,
+    "image_base": "0x400000",
+    "entry_point": "0x497040",
+    "sections": [
+      {
+        "name": "R\r",
+        "rva": "0x118b4424",
+        "vsize": 1149960268,
+        "executable": false,
+        "writable": true
+      },
+      {
+        "name": "D$`\u0004L",
+        "rva": "0xff036024",
+        "vsize": 1153840164,
+        "executable": false,
+        "writable": true
+      },
+      {
+        "name": "L$LD$`",
+        "rva": "0x244c8bd6",
+        "vsize": 4294967295,
+        "executable": true,
+        "writable": false
+      },
+      {
+        "name": "",
+        "rva": "0x46a5100",
+        "vsize": 37,
+        "executable": false,
+        "writable": false
+      },
+      {
+        "name": "",
+        "rva": "0x8c48300",
+        "vsize": 1285744661,
+        "executable": true,
+        "writable": true
+      }
+    ],
+    "interesting_strings": [
+      "#CurrentLevel#",
+      "-game editorgame",
+      "../Data/LScripts/Classes/*.lua",
+      "../Data/LScripts/Loader.lua",
+      "../Data/LScripts/Main/Cfg.lua",
+      "../Data/LScripts/Main/Definitions.lua",
+      "../Data/LScripts/Main/Tweak.lua",
+      "../Data/Levels/",
+      "../Data/Levels/%s/%s/%s.*",
+      "../Data/Levels/*.*",
+      "../Data/Levels/DM*.*",
+      "../Data/Levels/_Trash_",
+      "../Data/Levels/_Trash_/",
+      "../Data/Levels/_Trash_/%s",
+      "../data/fonts.pak",
+      "../data/items.pak",
+      "../data/levels.pak",
+      "../data/levels/",
+      "../data/lscripts.pak",
+      "../data/maps.pak",
+      "../data/models.pak",
+      "../data/scripts.pak",
+      "../data/shaders.pak",
+      "../data/sounds.pak",
+      "../data/textures.pak",
+      "..\\Data\\Levels\\%s\\Templates",
+      "??0EngineGame@@QAE@XZ",
+      "??0Script@@QAE@PAUlua_State@@H@Z",
+      "??_7EngineGame@@6B@",
+      "?LevelWaypointsWithFloors@Pathfinder@@QAEXM@Z",
+      "?OurGame@@3P6APAVEngineGame@@XZA",
+      "?RegisterFunction@Script@@QAEXPBDP6AHPAUlua_State@@@Z@Z",
+      "?RegisterLibrary@Script@@QAEXPBDPBUluaL_reg@@@Z",
+      "?SaveContents@Pathfinder2@@QAE_NPBDM_N@Z",
+      "?SaveContents@Pathfinder@@QAEHPBDM@Z",
+      "?SaveEmitter@ParticleSystem@@QAEHABVParticleEmitter@@ABVString@@@Z",
+      "?SaveFloors@Pathfinder2@@QAE_NPBDM@Z",
+      "?SaveFloors@Pathfinder@@QAEHPBDM@Z",
+      "?ShowMenu@EngineGame@@QAEXXZ",
+      "?SwitchConsole@EngineGame@@QAEXXZ"
+    ]
+  }
+]

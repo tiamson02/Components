@@ -1,0 +1,595 @@
+{
+  "scan_time": "2026-04-25 10:22:53",
+  "dlls_scanned": 5,
+  "summary": {
+    "detected_versions": {
+      "Havok": [
+        "2",
+        "1",
+        "2."
+      ],
+      "Lua": [
+        "5.0.2"
+      ],
+      "Copyright": [
+        "1991",
+        "1998",
+        "1994"
+      ],
+      "DirectX": [
+        "9",
+        "9.0",
+        "8.1"
+      ]
+    },
+    "compiler_hints": [],
+    "likely_third_party_libs": [
+      "Lua 5.0.2",
+      "Havok 2.x",
+      "DirectX 9.0c",
+      "Miles Sound System",
+      "Bink Video",
+      "zlib"
+    ]
+  },
+  "details": [
+    {
+      "file": "Engine.dll", // Самая первая версия движка \\
+      "size": 3874816,
+      "strings_count": 24056,
+      "compiler_hints": [],
+      "versions": {
+        "Havok": [
+          [
+            "ACTION: Suspension Dashpot not supported in Havok 2 and ignored on import.",
+            "2"
+          ],
+          [
+            "Havok 2 breakable constraint has only one tolerance value, this will be taken from the linear strength parameter: %f.",
+            "2"
+          ],
+          [
+            "Havok 1 disabled collision list ignored on import",
+            "1"
+          ],
+          [
+            "You are using collision group 32 for one or more of your rigid bodies. This has been reserved for havok 2 import of disable all collisions.",
+            "2"
+          ],
+          [
+            "Havok 2 does not support multiple subspaces, extra subspaces ignored.",
+            "2"
+          ],
+          [
+            "Geometry type: %s unknown or unsupported in Havok 2.",
+            "2."
+          ],
+          [
+            "Planar primitives not supported in Havok 2, primitive not imported.",
+            "2"
+          ],
+          [
+            "ACTION: Drag action not supported in Havok 2 and ignored on import.",
+            "2"
+          ],
+          [
+            "ACTION: Old deactivator not supported in Havok 2 and ignored on import.",
+            "2"
+          ],
+          [
+            "You are enabling collisions for group 32 on import. This has been ignored as 32 is reserved for havok 2 import of disable all collisions.",
+            "2"
+          ],
+          [
+            "Havok 2 hke import does not support display worlds. Display world ignored.",
+            "2"
+          ],
+          [
+            "ACTION: Spin Dashpot not supported in Havok 2 and ignored on import.",
+            "2"
+          ],
+          [
+            "Import of constraint type: %s unsupported in Havok 2.",
+            "2."
+          ]
+        ],
+        "Lua": [
+          [
+            "$Lua: Lua 5.0.2 Copyright (C) 1994-2004 Tecgraf, PUC-Rio $",
+            "5.0.2"
+          ],
+          [
+            "Lua 5.0.2",
+            "5.0.2"
+          ]
+        ],
+        "Copyright": [
+          [
+            "$Lua: Lua 5.0.2 Copyright (C) 1994-2004 Tecgraf, PUC-Rio $",
+            "1994"
+          ]
+        ],
+        "DirectX": [
+          [
+            "ERROR: could not Initialize DirectX 9 Renderer",
+            "9"
+          ]
+        ]
+      },
+      "findings": {
+        "Error Messages": [
+          "qhull precision error (qh_maxsimplex for voronoi_center):",
+          "Net Init Error: Windows Sockets implementation too old!",
+          "qhull warning: missing frequency count for trace option 'TFn'.  Ignored",
+          "Net Error: Read: error in recvfrom(): %s",
+          "qhull input error (qh_printafacet): option 'Fp' needs qh feasible_point",
+          "qhull internal error (qh_merge_degenredunant): f%d redundant but f%d has no replacement",
+          "qhull internal error (qh_checkfacet): ridge between f%d and f%d has %d vertices",
+          "qhull precision error (qh_check_bestdist): a coplanar point is %6.2g from convex hull.  The maximum value (qh.outside_err) is %6.2g",
+          "qhull warning: point p%d is a vertex for every facet ('QV-%d').",
+          "Net Error: the client tried to answer a challenge that the server didn't provide!"
+        ],
+        "URLs": [
+          "http://%s:%d%s",
+          "unzip 1.00 Copyright 1998-2003 Gilles Vollant - http://www.winimage.com/zLibDll",
+          "http://",
+          "$URL: www.lua.org $",
+          "http://motd.gamespy.com/motd/vercheck.asp?userid=%d&productid=%d&versionuniqueid=%s&distid=%d&uniqueid=%s&gamename=%s",
+          "http://motd.gamespy.com/motd/vercheck.asp?productid=%d&versionuniqueid=%s&distid=%d&gamename=%s",
+          "zip 1.00 Copyright 1998-2003 Gilles Vollant - http://www.winimage.com/zLibDll",
+          "http://motd.gamespy.com/motd/motd.asp?userid=%d&productid=%d&versionuniqueid=%s&distid=%d&uniqueid=%s&gamename=%s",
+          "http://www.fileplanet.com/dlfileraw.asp?file=%d&gamename=%s"
+        ],
+        "Copyright/License": [
+          "deflate 1.2.1 Copyright 1995-2003 Jean-loup Gailly",
+          "$Lua: Lua 5.0.2 Copyright (C) 1994-2004 Tecgraf, PUC-Rio $",
+          "copyrightsans",
+          "inflate 1.2.1 Copyright 1995-2003 Mark Adler",
+          "LicenseStateData.",
+          "COPYRIGHT",
+          "LicenseStateData.Play",
+          "LicenseStateData.Transfer.NONSDMI",
+          "unzip 1.00 Copyright 1998-2003 Gilles Vollant - http://www.winimage.com/zLibDll",
+          "$Authors: R. Ierusalimschy, L. H. de Figueiredo & W. Celes $"
+        ],
+        "Referenced Files": [
+          "KERNEL32.dll",
+          "netmsg.dll",
+          "mss32.dll",
+          "FreeLibrary",
+          "Microsoft Visual C++ Runtime Library",
+          "WSOCK32.dll",
+          "binkw32.dll",
+          "LoadLibraryExA",
+          "DisableThreadLibraryCalls",
+          "WINMM.dll"
+        ]
+      },
+      "sample_strings": [
+        "hoiSj",
+        "R\"R(R1R2R5R<RERIRURWRXRZR\\R_R`RaRfRnRwRxRyR",
+        "??0Camera@@QAE@ABV0@@Z",
+        "&0G0Z0x0",
+        "9$9*90969<9B9H9N9T9Z9`9f9l9r9x9",
+        "----------------------------",
+        ">Q?|Ffa",
+        "Program:",
+        "%s with 'C%.2g' and 'A%.2g'",
+        "%]{]v]|]$",
+        ">Q>{>",
+        "]^[_Y",
+        "T$$f1t$",
+        "5!5'54595F5N5h5n5z5",
+        "QueryPerformanceCounter",
+        "V8QRhX",
+        "F$W3",
+        "GREEK8",
+        "7s7b8",
+        "FastPickCurrentSet"
+      ]
+    },
+    {
+      "file": "Engine2005.dll", // Самая последняя версия движка \\
+      "size": 4440064,
+      "strings_count": 25396,
+      "compiler_hints": [],
+      "versions": {
+        "Havok": [
+          [
+            "ACTION: Suspension Dashpot not supported in Havok 2 and ignored on import.",
+            "2"
+          ],
+          [
+            "Havok 2 breakable constraint has only one tolerance value, this will be taken from the linear strength parameter: %f.",
+            "2"
+          ],
+          [
+            "Havok 1 disabled collision list ignored on import",
+            "1"
+          ],
+          [
+            "You are using collision group 32 for one or more of your rigid bodies. This has been reserved for havok 2 import of disable all collisions.",
+            "2"
+          ],
+          [
+            "Havok 2 does not support multiple subspaces, extra subspaces ignored.",
+            "2"
+          ],
+          [
+            "Geometry type: %s unknown or unsupported in Havok 2.",
+            "2."
+          ],
+          [
+            "Planar primitives not supported in Havok 2, primitive not imported.",
+            "2"
+          ],
+          [
+            "ACTION: Drag action not supported in Havok 2 and ignored on import.",
+            "2"
+          ],
+          [
+            "ACTION: Old deactivator not supported in Havok 2 and ignored on import.",
+            "2"
+          ],
+          [
+            "You are enabling collisions for group 32 on import. This has been ignored as 32 is reserved for havok 2 import of disable all collisions.",
+            "2"
+          ],
+          [
+            "Havok 2 hke import does not support display worlds. Display world ignored.",
+            "2"
+          ],
+          [
+            "ACTION: Spin Dashpot not supported in Havok 2 and ignored on import.",
+            "2"
+          ],
+          [
+            "Import of constraint type: %s unsupported in Havok 2.",
+            "2."
+          ]
+        ],
+        "Lua": [
+          [
+            "$Lua: Lua 5.0.2 Copyright (C) 1994-2004 Tecgraf, PUC-Rio $",
+            "5.0.2"
+          ],
+          [
+            "Lua 5.0.2",
+            "5.0.2"
+          ]
+        ],
+        "Copyright": [
+          [
+            "$Lua: Lua 5.0.2 Copyright (C) 1994-2004 Tecgraf, PUC-Rio $",
+            "1994"
+          ]
+        ],
+        "DirectX": [
+          [
+            "ERROR: could not Initialize DirectX 9 Renderer",
+            "9"
+          ]
+        ]
+      },
+      "findings": {
+        "Error Messages": [
+          "qhull precision error (qh_maxsimplex for voronoi_center):",
+          "Net Init Error: Windows Sockets implementation too old!",
+          "qhull warning: missing frequency count for trace option 'TFn'.  Ignored",
+          "Name Resolution Error: tried to resolve host '%s' and failed!",
+          "Net Error: Read: error in recvfrom(): %s",
+          "qhull input error (qh_printafacet): option 'Fp' needs qh feasible_point",
+          "qhull internal error (qh_merge_degenredunant): f%d redundant but f%d has no replacement",
+          "PKTV Init Error: Couldn't open listening socket: %s",
+          "qhull internal error (qh_checkfacet): ridge between f%d and f%d has %d vertices",
+          "qhull precision error (qh_check_bestdist): a coplanar point is %6.2g from convex hull.  The maximum value (qh.outside_err) is %6.2g"
+        ],
+        "URLs": [
+          "http://motd.openspy.net/motd/motd.asp?userid=%d&productid=%d&versionuniqueid=%s&distid=%d&uniqueid=%s&gamename=%s",
+          "http://%s:%d%s",
+          "http://motd.openspy.net/motd/vercheck.asp?productid=%d&versionuniqueid=%s&distid=%d&gamename=%s",
+          "unzip 1.00 Copyright 1998-2003 Gilles Vollant - http://www.winimage.com/zLibDll",
+          "http://motd.openspy.net/motd/vercheck.asp?userid=%d&productid=%d&versionuniqueid=%s&distid=%d&uniqueid=%s&gamename=%s",
+          "http://",
+          "$URL: www.lua.org $",
+          "zip 1.00 Copyright 1998-2003 Gilles Vollant - http://www.winimage.com/zLibDll",
+          "http://www.fileplanet.com/dlfileraw.asp?file=%d&gamename=%s"
+        ],
+        "Copyright/License": [
+          "deflate 1.2.1 Copyright 1995-2003 Jean-loup Gailly",
+          "$Lua: Lua 5.0.2 Copyright (C) 1994-2004 Tecgraf, PUC-Rio $",
+          "copyrightsans",
+          "inflate 1.2.1 Copyright 1995-2003 Mark Adler",
+          "LicenseStateData.",
+          "COPYRIGHT",
+          "LicenseStateData.Play",
+          "LicenseStateData.Transfer.NONSDMI",
+          "unzip 1.00 Copyright 1998-2003 Gilles Vollant - http://www.winimage.com/zLibDll",
+          "$Authors: R. Ierusalimschy, L. H. de Figueiredo & W. Celes $"
+        ],
+        "Referenced Files": [
+          "KERNEL32.dll",
+          "netmsg.dll",
+          "mss32.dll",
+          "FreeLibrary",
+          "Microsoft Visual C++ Runtime Library",
+          "binkw32.dll",
+          "LoadLibraryExA",
+          "DisableThreadLibraryCalls",
+          "WINMM.dll",
+          "Engine.dll"
+        ]
+      },
+      "sample_strings": [
+        "hoiSj",
+        "5$555N5w5~5",
+        "R\"R(R1R2R5R<RERIRURWRXRZR\\R_R`RaRfRnRwRxRyR",
+        "??0Camera@@QAE@ABV0@@Z",
+        "----------------------------",
+        "|$ f",
+        ">Q?|Ffa",
+        "Program:",
+        "%s with 'C%.2g' and 'A%.2g'",
+        "%]{]v]|]$",
+        "?\\?b?j?",
+        "]^[_Y",
+        "T$$f1t$",
+        "h*f*",
+        "L$4QhLD+",
+        "QueryPerformanceCounter",
+        "<7===n=y=",
+        "F$W3",
+        "GREEK8",
+        "PUQV"
+      ]
+    },
+    {
+      "file": "mss32.dll",
+      "size": 372736,
+      "strings_count": 3804,
+      "compiler_hints": [],
+      "versions": {
+        "Copyright": [
+          [
+            "DLS Listing - Version 6.5h        Copyright (C) 1991-2003, RAD Game Tools, Inc.",
+            "1991"
+          ],
+          [
+            "MIDI Listing - Version 6.5h        Copyright (C) 1991-2003, RAD Game Tools, Inc.",
+            "1991"
+          ],
+          [
+            "6.5h-Copyright (C) 1991-2003, RAD Game Tools, Inc.",
+            "1991"
+          ],
+          [
+            "Copyright (C) 1991-2003, RAD Game Tools, Inc.",
+            "1991"
+          ],
+          [
+            "Copyright (C) 1991-98 RAD Game Tools, Inc.",
+            "1991"
+          ]
+        ]
+      },
+      "findings": {
+        "Copyright/License": [
+          "6.5h-Copyright (C) 1991-2003, RAD Game Tools, Inc.",
+          "MIDI Listing - Version 6.5h        Copyright (C) 1991-2003, RAD Game Tools, Inc.",
+          "LegalCopyright",
+          "copyright notice \"",
+          "Copyright (C) 1991-98 RAD Game Tools, Inc.",
+          "DLS Listing - Version 6.5h        Copyright (C) 1991-2003, RAD Game Tools, Inc.",
+          "Copyright (C) 1991-2003, RAD Game Tools, Inc."
+        ],
+        "Error Messages": [
+          "AIL_file_error()",
+          "AIL_set_error(%s)",
+          "FLT_error",
+          "CreateSoundBuffer() failed on primary buffer.",
+          "TLOSS error",
+          "SetCooperativeLevel() failed.",
+          "DLSMSSOpen call failed.",
+          "Unknown security failure detected!",
+          "WARNING: Missing $F7 EOX terminator",
+          "Runtime Error!"
+        ],
+        "Referenced Files": [
+          "The DirectSound DLL could not be loaded.",
+          "KERNEL32.dll",
+          "mss32.dll",
+          "DLS library functions not found - probably not a DLS DLL.",
+          "FreeLibrary",
+          "Microsoft Visual C++ Runtime Library",
+          "vort_dls.dll",
+          "RIB_load_provider_library",
+          "RIB_free_provider_library",
+          "DisableThreadLibraryCalls"
+        ]
+      },
+      "sample_strings": [
+        "D$X;",
+        "PARTIAL RESERVE (Part 5)",
+        "System area",
+        "2!2'242;2M2W2f2m2",
+        "MSS channel lock/release %.3u",
+        "!t*9",
+        "?$?-?7?K?V?i?r?y?",
+        "D$.%",
+        "2#2>2D2K2Q2l2r2",
+        "&2=HS",
+        "Qh,B",
+        "!t59-",
+        "chorus depth = %.3u",
+        "(Partial #2) TVF BIAS POINT/DIR",
+        "_AIL_sample_ms_position@12",
+        "2*2:2S2l2",
+        "3&383@3N3W3a3p3{3",
+        "_t@3",
+        "=MLS t",
+        "M3D_3D_orientation"
+      ]
+    },
+    {
+      "file": "D3Dev.dll",
+      "size": 651264,
+      "strings_count": 3799,
+      "compiler_hints": [],
+      "versions": {
+        "DirectX": [
+          [
+            "Destroying DirectX 9.0 Renderer",
+            "9.0"
+          ],
+          [
+            "Creating DirectX 9.0 Renderer",
+            "9.0"
+          ],
+          [
+            "Closing DirectX 8.1 Render Device",
+            "8.1"
+          ],
+          [
+            "Successfully opened DirectX 9.0 Renderer",
+            "9.0"
+          ]
+        ],
+        "Copyright": [
+          [
+            "Copyright (C) 1998, Thomas G. Lane",
+            "1998"
+          ]
+        ]
+      },
+      "findings": {
+        "Error Messages": [
+          "file error",
+          "Output file write error --- out of disk space?",
+          "ERROR: invalid W,H for CreateRegularTexture (raw) (%d,%d)",
+          "ERROR: could not create %s target cubemap (%d,%d)",
+          "@read error",
+          "Decompression error",
+          "TLOSS error",
+          "FAILED to restore vertex shader (%s)",
+          "ERROR: could not restore %s target %dx%d (%s) %.2f MB free",
+          "An error occurred while attempting to read from the IStream* object."
+        ],
+        "Referenced Files": [
+          "KERNEL32.dll",
+          "zlib memory error",
+          "d3d9.dll",
+          "Unknown zlib error",
+          "JPEG parameter struct mismatch: library thinks size is %u, caller expects %u",
+          "Microsoft Visual C++ Runtime Library",
+          "Registry entry or DLL for class installer invalid or class installer not found.",
+          "DisableThreadLibraryCalls",
+          "zlib error",
+          "Incompatible libpng version in application and library"
+        ],
+        "Copyright/License": [
+          "Copyright (C) 1998, Thomas G. Lane",
+          "inflate 1.1.4 Copyright 1995-2002 Mark Adler",
+          "deflate 1.1.4 Copyright 1995-2002 Jean-loup Gailly"
+        ]
+      },
+      "sample_strings": [
+        "An attempt was made to page unlock a surface with no outstanding page locks.",
+        "=3>:>N>S>Y>",
+        "</<D<",
+        ";l$$",
+        "ERROR: invalid W,H for CreateRegularTexture (raw) (%d,%d)",
+        "Corrupt JPEG data: %u extraneous bytes before marker 0x%02x",
+        "D$.%",
+        ">3>E>[>q>",
+        "f1p1",
+        "|$ f",
+        "5:6G6W6d6O7",
+        "QSRW",
+        "3 323E3X3",
+        "GUnknown sRGB intent",
+        "~=;F",
+        ":.;a;g;y;",
+        "+]P3",
+        "Program:",
+        ")={()<D",
+        "pl;ql"
+      ]
+    },
+    {
+      "file": "binkw32.dll",
+      "size": 350720,
+      "strings_count": 1614,
+      "compiler_hints": [],
+      "versions": {
+        "Copyright": [
+          [
+            "Copyright (C) 1994-2003, RAD Game Tools, Inc.",
+            "1994"
+          ],
+          [
+            "1.5y-Copyright (C) 1994-2003, RAD Game Tools, Inc.",
+            "1994"
+          ],
+          [
+            "Copyright (C) 1994-2002 RAD Game Tools, Inc.",
+            "1994"
+          ]
+        ]
+      },
+      "findings": {
+        "Copyright/License": [
+          "Copyright (C) 1994-2003, RAD Game Tools, Inc.",
+          "1.5y-Copyright (C) 1994-2003, RAD Game Tools, Inc.",
+          "LegalCopyright",
+          "Copyright (C) 1994-2002 RAD Game Tools, Inc."
+        ],
+        "Referenced Files": [
+          "MSS32.DLL",
+          "Microsoft Visual C++ Runtime Library",
+          "LoadLibraryA",
+          "DDRAW.DLL",
+          "binkw32.dll",
+          "KERNEL32.dll",
+          "mscoree.dll",
+          "The BinkW32.DLL file is installed in the Windows or Windows system directory - it must be installed in the application directory.",
+          "user32.dll",
+          "FreeLibrary"
+        ],
+        "Error Messages": [
+          "Unknown security failure detected!",
+          "Error opening file.",
+          "Runtime Error!",
+          "- unexpected heap error",
+          "0runtime error",
+          "GetLastError",
+          "Bink Error",
+          "_BinkBufferGetError@0",
+          "SING error",
+          "DOMAIN error"
+        ]
+      },
+      "sample_strings": [
+        "D$$]r",
+        ":*;<;O;i;",
+        "Program:",
+        "< <=<C<N<S<[<a<k<q<",
+        "D$$SUVWt",
+        "=BIKit",
+        "b0n0",
+        "Kv@}c/=",
+        "j QR",
+        "6PWS",
+        "%ygys",
+        "l$@VW",
+        "QueryPerformanceCounter",
+        "0!0T0",
+        ">!?:?F?K?P?e?",
+        "0wHVSU",
+        ";\";.;4;@;F;S;X;a;k;q;w;",
+        "T$dSW",
+        "td9l$",
+        "NIOf"
+      ]
+    }
+  ]
+}
