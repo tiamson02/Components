@@ -1,0 +1,68 @@
+
+  Engine.asm:57804:             undefined4        Stack[-0xc]:4  local_c       
+                          XREF[1]:     10019272(W)  
+  Engine.asm:57805:             undefined4        Stack[-0x10]:4 local_10      
+                          XREF[2]:     1001923a(*), 
+  Engine.asm:57806:                                                            
+                                       10019266(W)  
+  Engine.asm:57807:             undefined4        Stack[-0x14]:4 local_14      
+                          XREF[1]:     10019256(W)  
+  Engine.asm:57808:             undefined4        Stack[-0x18]:4 local_18      
+                          XREF[1]:     1001924e(W)  
+  Engine.asm:57809:             undefined4        Stack[-0x1c]:4 local_1c      
+                          XREF[2]:     1001923f(*), 
+  Engine.asm:57810:                                                            
+                                       10019246(W)  
+  Engine.asm:57811:                             0x19190  808  ?CreatePlayer@Eng
+ineGame@@QAEPAVEntity@@PBD_N@Z
+  Engine.asm:57812:                             Ordinal_808                    
+                 XREF[2]:     Entry Point(*), 
+  Engine.asm:57813:                             ?CreatePlayer@EngineGame@@QAEPA
+VEntity@@PBD_N@Z              FUN_100fb7b0:100fb80a(c)  
+> Engine.asm:57814:                             EngineGame::CreatePlayer
+  Engine.asm:57815:        10019190 83 ec 1c        SUB        ESP,0x1c
+  Engine.asm:57816:        10019193 56              PUSH       ESI
+  Engine.asm:57817:        10019194 8b 74 24 24     MOV        ESI,dword ptr [E
+SP + param_1]
+  Engine.asm:57818:        10019198 57              PUSH       EDI
+  Engine.asm:57819:        10019199 68 30 aa        PUSH       s_motor_1025aa30
+                                 = "motor"
+  Engine.asm:57820:                 25 10
+  Engine.asm:57821:        1001919e 56              PUSH       ESI
+  Engine.asm:57822:        1001919f 8b f9           MOV        EDI,this
+  Engine.asm:57823:        100191a1 e8 09 eb        CALL       __stricmp       
+                                 int __stricmp(char * _Str1, char
+  Engine.asm:57824:                 21 00
+  Engine.asm:528305:        100fb7f1 68 dc e7        PUSH       s_tempshit_1026
+e7dc                              = "tempshit"
+  Engine.asm:528306:                 26 10
+  Engine.asm:528307:        100fb7f6 6a 01           PUSH       0x1
+  Engine.asm:528308:        100fb7f8 e8 f3 8a        CALL       Script::GetStri
+ng                                char * GetString(Script * this, 
+  Engine.asm:528309:                 01 00
+  Engine.asm:528310:        100fb7fd 8b 0d 30        MOV        ECX,dword ptr [
+GEngine]                          = 00000000
+  Engine.asm:528311:                 57 bd 10
+  Engine.asm:528312:        100fb803 8b 89 dc        MOV        ECX,dword ptr [
+ECX + 0xdc]
+  Engine.asm:528313:                 00 00 00
+  Engine.asm:528314:        100fb809 50              PUSH       EAX
+> Engine.asm:528315:        100fb80a e8 81 d9        CALL       EngineGame::Cre
+atePlayer                         Entity * CreatePlayer(EngineGame
+  Engine.asm:528316:                 f1 ff
+  Engine.asm:528317:        100fb80f 8b 50 14        MOV        EDX,dword ptr [
+EAX + 0x14]
+  Engine.asm:528318:        100fb812 52              PUSH       EDX
+  Engine.asm:528319:        100fb813 8d 4c 24 04     LEA        ECX=>local_1c,[
+ESP + 0x4]
+  Engine.asm:528320:        100fb817 e8 04 8c        CALL       Script::PushInt
+                                  void PushInt(Script * this, int 
+  Engine.asm:528321:                 01 00
+  Engine.asm:528322:        100fb81c 8d 0c 24        LEA        ECX=>local_1c,[
+ESP]
+  Engine.asm:528323:        100fb81f c7 44 24        MOV        dword ptr [ESP 
++ local_4],0xffffffff
+  Engine.asm:528324:                 18 ff ff 
+  Engine.asm:528325:                 ff ff
+
+

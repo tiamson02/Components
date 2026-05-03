@@ -1,0 +1,131 @@
+
+  Engine.asm:57322:        10018e25 5f              POP        EDI
+  Engine.asm:57323:        10018e26 5e              POP        ESI
+  Engine.asm:57324:        10018e27 c2 08 00        RET        0x8
+  Engine.asm:57325:        10018e2a cc              ??         CCh
+  Engine.asm:57326:        10018e2b cc              ??         CCh
+  Engine.asm:57327:        10018e2c cc              ??         CCh
+  Engine.asm:57328:        10018e2d cc              ??         CCh
+  Engine.asm:57329:        10018e2e cc              ??         CCh
+  Engine.asm:57330:        10018e2f cc              ??         CCh
+  Engine.asm:57331:                             *******************************
+*******************************
+> Engine.asm:57332:                             * public: void __thiscall Engin
+eGame::ShowMenu(void)         *
+  Engine.asm:57333:                             *******************************
+*******************************
+  Engine.asm:57334:                             void __thiscall ShowMenu(Engine
+Game * this)
+  Engine.asm:57335:                               assume FS_OFFSET = 0xffdff000
+  Engine.asm:57336:             void              <VOID>         <RETURN>
+  Engine.asm:57337:             EngineGame *      ECX:4 (auto)   this
+  Engine.asm:57338:             undefined4        Stack[-0x4]:4  local_4       
+                          XREF[5]:     10018e74(W), 
+  Engine.asm:57339:                                                            
+                                       10018e85(W), 
+  Engine.asm:57340:                                                            
+                                       10018eb5(W), 
+  Engine.asm:57341:                                                            
+                                       10018ec5(W), 
+  Engine.asm:57342:                                                            
+                                       10018f1b(W)  
+  Engine.asm:57344:             undefined1        Stack[-0x1c]:1 local_1c      
+                          XREF[2]:     10018e9f(*), 
+  Engine.asm:57345:                                                            
+                                       10018ebf(*)  
+  Engine.asm:57346:             undefined1        Stack[-0x2c]:1 local_2c      
+                          XREF[2]:     10018e59(*), 
+  Engine.asm:57347:                                                            
+                                       10018e81(*)  
+  Engine.asm:57348:             undefined1        Stack[-0x3c]:1 local_3c      
+                          XREF[3]:     10018e6d(*), 
+  Engine.asm:57349:                                                            
+                                       10018ea4(*), 
+  Engine.asm:57350:                                                            
+                                       10018f17(*)  
+  Engine.asm:57351:                             0x18e30  2421  ?ShowMenu@Engine
+Game@@QAEXXZ
+  Engine.asm:57352:                             Ordinal_2421                   
+                 XREF[3]:     Entry Point(*), 
+  Engine.asm:57353:                             ?ShowMenu@EngineGame@@QAEXXZ   
+                              SwitchMenu:10019d09(c), 
+> Engine.asm:57354:                             EngineGame::ShowMenu           
+                              FUN_10063d80:10063dbc(c)  
+  Engine.asm:57355:        10018e30 6a ff           PUSH       -0x1
+  Engine.asm:57356:        10018e32 68 08 a2        PUSH       LAB_1024a208
+  Engine.asm:57357:                 24 10
+  Engine.asm:57358:        10018e37 64 a1 00        MOV        EAX,FS:[0x0]=>Ex
+ceptionList                      = 00000000
+  Engine.asm:57359:                 00 00 00
+  Engine.asm:57360:        10018e3d 50              PUSH       EAX
+  Engine.asm:57361:        10018e3e 64 89 25        MOV        dword ptr FS:[0x
+0]=>ExceptionList,ESP            = 00000000
+  Engine.asm:57362:                 00 00 00 00
+  Engine.asm:57363:        10018e45 83 ec 30        SUB        ESP,0x30
+  Engine.asm:57364:        10018e48 53              PUSH       EBX
+  Engine.asm:59107:        10019ced a1 30 57        MOV        EAX,[GEngine]   
+                                 = 00000000
+  Engine.asm:59108:                 bd 10
+  Engine.asm:59109:        10019cf2 8b 88 e8        MOV        this,dword ptr [
+EAX + 0xe8]
+  Engine.asm:59110:                 00 00 00
+  Engine.asm:59111:        10019cf8 8b 91 70        MOV        EDX,dword ptr [t
+his + 0x460170]
+  Engine.asm:59112:                 01 46 00
+  Engine.asm:59113:        10019cfe 80 ba a0        CMP        byte ptr [EDX + 
+0x3a0],0x0
+  Engine.asm:59114:                 03 00 00 00
+  Engine.asm:59115:        10019d05 8b cd           MOV        this,EBP
+  Engine.asm:59116:        10019d07 75 07           JNZ        LAB_10019d10
+> Engine.asm:59117:        10019d09 e8 22 f1        CALL       EngineGame::Show
+Menu                             void ShowMenu(EngineGame * this)
+  Engine.asm:59118:                 ff ff
+  Engine.asm:59119:        10019d0e eb 05           JMP        LAB_10019d15
+  Engine.asm:59120:                             LAB_10019d10                   
+                 XREF[1]:     10019d07(j)  
+  Engine.asm:59121:        10019d10 e8 2b f2        CALL       EngineGame::Hide
+Menu                             void HideMenu(EngineGame * this)
+  Engine.asm:59122:                 ff ff
+  Engine.asm:59123:                             LAB_10019d15                   
+                 XREF[1]:     10019d0e(j)  
+  Engine.asm:59124:        10019d15 8b 44 24 10     MOV        EAX,dword ptr [E
+SP + local_78]
+  Engine.asm:59125:        10019d19 50              PUSH       EAX
+  Engine.asm:59126:                             LAB_10019d1a                   
+                 XREF[1]:     10019ceb(j)  
+  Engine.asm:59127:        10019d1a b9 a8 90        MOV        this,GMem       
+                                 = 1025a508
+  Engine.asm:201629:        10063d9f 8d 4c 24 08     LEA        ECX=>local_1c,[
+ESP + 0x8]
+  Engine.asm:201630:        10063da3 e8 e8 02        CALL       Script::Script 
+                                  undefined Script(Script * this, 
+  Engine.asm:201631:                 0b 00
+  Engine.asm:201632:        10063da8 8b 0d 30        MOV        ECX,dword ptr [
+GEngine]                          = 00000000
+  Engine.asm:201633:                 57 bd 10
+  Engine.asm:201634:        10063dae 8b 89 dc        MOV        ECX,dword ptr [
+ECX + 0xdc]
+  Engine.asm:201635:                 00 00 00
+  Engine.asm:201636:        10063db4 c7 44 24        MOV        dword ptr [ESP 
++ local_4],0x0
+  Engine.asm:201637:                 18 00 00 
+  Engine.asm:201638:                 00 00
+> Engine.asm:201639:        10063dbc e8 6f 50        CALL       EngineGame::Sho
+wMenu                             void ShowMenu(EngineGame * this)
+  Engine.asm:201640:                 fb ff
+  Engine.asm:201641:        10063dc1 8d 0c 24        LEA        ECX=>local_1c,[
+ESP]
+  Engine.asm:201642:        10063dc4 c7 44 24        MOV        dword ptr [ESP 
++ local_4],0xffffffff
+  Engine.asm:201643:                 18 ff ff 
+  Engine.asm:201644:                 ff ff
+  Engine.asm:201645:        10063dcc e8 ef 08        CALL       Script::~Script
+                                  void ~Script(Script * this)
+  Engine.asm:201646:                 0b 00
+  Engine.asm:201647:        10063dd1 8b 4c 24 10     MOV        ECX,dword ptr [
+ESP + local_c]
+  Engine.asm:201648:        10063dd5 33 c0           XOR        EAX,EAX
+  Engine.asm:201649:        10063dd7 64 89 0d        MOV        dword ptr FS:[0
+x0]=>ExceptionList,ECX            = 00000000
+
+

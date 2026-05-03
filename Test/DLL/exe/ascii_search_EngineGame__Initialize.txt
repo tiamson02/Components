@@ -1,0 +1,170 @@
+
+  Engine.asm:57992:        10019337 cc              ??         CCh
+  Engine.asm:57993:        10019338 cc              ??         CCh
+  Engine.asm:57994:        10019339 cc              ??         CCh
+  Engine.asm:57995:        1001933a cc              ??         CCh
+  Engine.asm:57996:        1001933b cc              ??         CCh
+  Engine.asm:57997:        1001933c cc              ??         CCh
+  Engine.asm:57998:        1001933d cc              ??         CCh
+  Engine.asm:57999:        1001933e cc              ??         CCh
+  Engine.asm:58000:        1001933f cc              ??         CCh
+  Engine.asm:58001:                             *******************************
+*******************************
+> Engine.asm:58002:                             * public: void __thiscall Engin
+eGame::Initialize(void)       *
+  Engine.asm:58003:                             *******************************
+*******************************
+  Engine.asm:58004:                             void __thiscall Initialize(Engi
+neGame * this)
+  Engine.asm:58005:                               assume FS_OFFSET = 0xffdff000
+  Engine.asm:58006:             void              <VOID>         <RETURN>
+  Engine.asm:58007:             EngineGame *      ECX:4 (auto)   this
+  Engine.asm:58008:             undefined4        Stack[-0x5c]:4 local_5c      
+                          XREF[1]:     10019366(W)  
+  Engine.asm:58009:                             0x19340  1414  ?Initialize@Engi
+neGame@@QAEXXZ
+  Engine.asm:58010:                             Ordinal_1414                   
+                 XREF[5]:     Entry Point(*), 
+  Engine.asm:58011:                             ?Initialize@EngineGame@@QAEXXZ 
+                              SwitchToState:1004168a(c), 
+> Engine.asm:58012:                             EngineGame::Initialize         
+                              SwitchToState:100417fe(c), 
+  Engine.asm:58013:                                                            
+                              SwitchToState:100419b0(c), 
+  Engine.asm:58014:                                                            
+                              SwitchToState:10041ba0(c)  
+  Engine.asm:58015:        10019340 6a ff           PUSH       -0x1
+  Engine.asm:58016:        10019342 68 7e a2        PUSH       LAB_1024a27e
+  Engine.asm:58017:                 24 10
+  Engine.asm:58018:        10019347 64 a1 00        MOV        EAX,FS:[0x0]=>Ex
+ceptionList                      = 00000000
+  Engine.asm:58019:                 00 00 00
+  Engine.asm:58020:        1001934d 50              PUSH       EAX
+  Engine.asm:58021:        1001934e 64 89 25        MOV        dword ptr FS:[0x
+0]=>ExceptionList,ESP            = 00000000
+  Engine.asm:58022:                 00 00 00 00
+  Engine.asm:133631:                 00 00
+  Engine.asm:133632:        10041676 eb 02           JMP        LAB_1004167a
+  Engine.asm:133633:                             LAB_10041678                  
+                  XREF[1]:     1004166d(j)  
+  Engine.asm:133634:        10041678 33 c0           XOR        EAX,EAX
+  Engine.asm:133635:                             LAB_1004167a                  
+                  XREF[1]:     10041676(j)  
+  Engine.asm:133636:        1004167a 8b 8e dc        MOV        this,dword ptr 
+[ESI + 0xdc]
+  Engine.asm:133637:                 00 00 00
+  Engine.asm:133638:        10041680 89 6c 24 18     MOV        dword ptr [ESP 
++ 0x18],EBP
+  Engine.asm:133639:        10041684 89 86 e0        MOV        dword ptr [ESI 
++ 0xe0],EAX
+  Engine.asm:133640:                 00 00 00
+> Engine.asm:133641:        1004168a e8 b1 7c        CALL       EngineGame::Ini
+tialize                           void Initialize(EngineGame * this)
+  Engine.asm:133642:                 fd ff
+  Engine.asm:133643:                             LAB_1004168f                  
+                  XREF[1]:     10041644(j)  
+  Engine.asm:133644:        1004168f 8d 4e 08        LEA        this,[ESI + 0x8
+]
+  Engine.asm:133645:        10041692 e8 a9 fc        CALL       SystemDriver::R
+esetTimer                         void ResetTimer(SystemDriver * t
+  Engine.asm:133646:                 fb ff
+  Engine.asm:133647:        10041697 e9 6b 05        JMP        LAB_10041c07
+  Engine.asm:133648:                 00 00
+  Engine.asm:133649:                             switchD_100413bb::caseD_3     
+                  XREF[2]:     100413bb(j), 10041c3c(*)  
+  Engine.asm:133650:        1004169c 8b be e8        MOV        EDI,dword ptr [
+ESI + 0xe8]
+  Engine.asm:133651:                 00 00 00
+  Engine.asm:133790:                             LAB_100417e8                  
+                  XREF[1]:     100417dd(j)  
+  Engine.asm:133791:        100417e8 33 c0           XOR        EAX,EAX
+  Engine.asm:133792:                             LAB_100417ea                  
+                  XREF[1]:     100417e6(j)  
+  Engine.asm:133793:        100417ea 8b 8e dc        MOV        this,dword ptr 
+[ESI + 0xdc]
+  Engine.asm:133794:                 00 00 00
+  Engine.asm:133795:        100417f0 c7 44 24        MOV        dword ptr [ESP 
++ 0x18],0xffffffff
+  Engine.asm:133796:                 18 ff ff 
+  Engine.asm:133797:                 ff ff
+  Engine.asm:133798:        100417f8 89 86 e0        MOV        dword ptr [ESI 
++ 0xe0],EAX
+  Engine.asm:133799:                 00 00 00
+> Engine.asm:133800:        100417fe e8 3d 7b        CALL       EngineGame::Ini
+tialize                           void Initialize(EngineGame * this)
+  Engine.asm:133801:                 fd ff
+  Engine.asm:133802:                             LAB_10041803                  
+                  XREF[1]:     1004179a(j)  
+  Engine.asm:133803:        10041803 8d 4e 08        LEA        this,[ESI + 0x8
+]
+  Engine.asm:133804:        10041806 e8 35 fb        CALL       SystemDriver::R
+esetTimer                         void ResetTimer(SystemDriver * t
+  Engine.asm:133805:                 fb ff
+  Engine.asm:133806:        1004180b e9 f7 03        JMP        LAB_10041c07
+  Engine.asm:133807:                 00 00
+  Engine.asm:133808:                             switchD_100413bb::caseD_4     
+                  XREF[2]:     100413bb(j), 10041c40(*)  
+  Engine.asm:133809:        10041810 33 db           XOR        EBX,EBX
+  Engine.asm:133810:        10041812 8b ce           MOV        this,ESI
+  Engine.asm:133976:                 00 00
+  Engine.asm:133977:        1004199c eb 02           JMP        LAB_100419a0
+  Engine.asm:133978:                             LAB_1004199e                  
+                  XREF[1]:     10041993(j)  
+  Engine.asm:133979:        1004199e 33 c0           XOR        EAX,EAX
+  Engine.asm:133980:                             LAB_100419a0                  
+                  XREF[1]:     1004199c(j)  
+  Engine.asm:133981:        100419a0 8b 8e dc        MOV        this,dword ptr 
+[ESI + 0xdc]
+  Engine.asm:133982:                 00 00 00
+  Engine.asm:133983:        100419a6 89 6c 24 18     MOV        dword ptr [ESP 
++ 0x18],EBP
+  Engine.asm:133984:        100419aa 89 86 e0        MOV        dword ptr [ESI 
++ 0xe0],EAX
+  Engine.asm:133985:                 00 00 00
+> Engine.asm:133986:        100419b0 e8 8b 79        CALL       EngineGame::Ini
+tialize                           void Initialize(EngineGame * this)
+  Engine.asm:133987:                 fd ff
+  Engine.asm:133988:                             LAB_100419b5                  
+                  XREF[1]:     10041950(j)  
+  Engine.asm:133989:        100419b5 39 9e d4        CMP        dword ptr [ESI 
++ 0xd4],EBX
+  Engine.asm:133990:                 00 00 00
+  Engine.asm:133991:        100419bb 75 32           JNZ        LAB_100419ef
+  Engine.asm:133992:        100419bd 68 c0 0d        PUSH       0xdc0
+  Engine.asm:133993:                 00 00
+  Engine.asm:133994:        100419c2 e8 c4 3c        CALL       operator_new   
+                                  void * operator_new(uint param_1)
+  Engine.asm:133995:                 1f 00
+  Engine.asm:133996:        100419c7 83 c4 04        ADD        ESP,0x4
+  Engine.asm:134190:                             LAB_10041b8a                  
+                  XREF[1]:     10041b7f(j)  
+  Engine.asm:134191:        10041b8a 33 c0           XOR        EAX,EAX
+  Engine.asm:134192:                             LAB_10041b8c                  
+                  XREF[1]:     10041b88(j)  
+  Engine.asm:134193:        10041b8c 8b 8e dc        MOV        this,dword ptr 
+[ESI + 0xdc]
+  Engine.asm:134194:                 00 00 00
+  Engine.asm:134195:        10041b92 c7 44 24        MOV        dword ptr [ESP 
++ 0x18],0xffffffff
+  Engine.asm:134196:                 18 ff ff 
+  Engine.asm:134197:                 ff ff
+  Engine.asm:134198:        10041b9a 89 86 e0        MOV        dword ptr [ESI 
++ 0xe0],EAX
+  Engine.asm:134199:                 00 00 00
+> Engine.asm:134200:        10041ba0 e8 9b 77        CALL       EngineGame::Ini
+tialize                           void Initialize(EngineGame * this)
+  Engine.asm:134201:                 fd ff
+  Engine.asm:134202:                             LAB_10041ba5                  
+                  XREF[1]:     10041b3c(j)  
+  Engine.asm:134203:        10041ba5 39 9e d4        CMP        dword ptr [ESI 
++ 0xd4],EBX
+  Engine.asm:134204:                 00 00 00
+  Engine.asm:134205:        10041bab 75 36           JNZ        LAB_10041be3
+  Engine.asm:134206:        10041bad 68 c0 0d        PUSH       0xdc0
+  Engine.asm:134207:                 00 00
+  Engine.asm:134208:        10041bb2 e8 d4 3a        CALL       operator_new   
+                                  void * operator_new(uint param_1)
+  Engine.asm:134209:                 1f 00
+  Engine.asm:134210:        10041bb7 83 c4 04        ADD        ESP,0x4
+
+

@@ -1,0 +1,155 @@
+
+  Engine.asm:58412:        100196b2 84 c9           TEST       this,this
+  Engine.asm:58413:        100196b4 8a 9c 24        MOV        BL,byte ptr [ESP
+ + param_1]
+  Engine.asm:58414:                 8c 00 00 00
+  Engine.asm:58415:        100196bb 0f 84 ff        JZ         LAB_100197c0
+  Engine.asm:58416:                 00 00 00
+  Engine.asm:58417:        100196c1 84 db           TEST       BL,BL
+  Engine.asm:58418:        100196c3 0f 84 18        JZ         LAB_100197e1
+  Engine.asm:58419:                 01 00 00
+  Engine.asm:58420:        100196c9 6a 01           PUSH       0x1
+  Engine.asm:58421:        100196cb 8b cf           MOV        this,EDI
+> Engine.asm:58422:        100196cd e8 ee 03        CALL       EngineGame::Swit
+chMenu                           void SwitchMenu(EngineGame * thi
+  Engine.asm:58423:                 00 00
+  Engine.asm:58424:                             LAB_100196d2                   
+                 XREF[2]:     100197c9(j), 100197dc(j)  
+  Engine.asm:58425:        100196d2 b9 3c 57        MOV        this,GScript    
+                                 = <Empty-Structure>
+  Engine.asm:58426:                 bd 10
+  Engine.asm:58427:        100196d7 e8 f4 ac        CALL       Script::GetTop  
+                                 int GetTop(Script * this)
+  Engine.asm:58428:                 0f 00
+  Engine.asm:58429:        100196dc 8b f0           MOV        ESI,EAX
+  Engine.asm:58430:        100196de 8d 44 24 6c     LEA        EAX=>local_1c,[E
+SP + 0x6c]
+  Engine.asm:58431:        100196e2 50              PUSH       EAX
+  Engine.asm:58432:        100196e3 b9 3c 57        MOV        this,GScript    
+                                 = <Empty-Structure>
+  Engine.asm:58821:        10019ab3 83 c4 3c        ADD        ESP,0x3c
+  Engine.asm:58822:        10019ab6 c2 08 00        RET        0x8
+  Engine.asm:58823:        10019ab9 cc              ??         CCh
+  Engine.asm:58824:        10019aba cc              ??         CCh
+  Engine.asm:58825:        10019abb cc              ??         CCh
+  Engine.asm:58826:        10019abc cc              ??         CCh
+  Engine.asm:58827:        10019abd cc              ??         CCh
+  Engine.asm:58828:        10019abe cc              ??         CCh
+  Engine.asm:58829:        10019abf cc              ??         CCh
+  Engine.asm:58830:                             *******************************
+*******************************
+> Engine.asm:58831:                             * public: void __thiscall Engin
+eGame::SwitchMenu(bool)       *
+  Engine.asm:58832:                             *******************************
+*******************************
+  Engine.asm:58833:                             void __thiscall SwitchMenu(Engi
+neGame * this, bool param
+  Engine.asm:58834:                               assume FS_OFFSET = 0xffdff000
+  Engine.asm:58835:             void              <VOID>         <RETURN>
+  Engine.asm:58836:             EngineGame *      ECX:4 (auto)   this
+  Engine.asm:58837:             bool              Stack[0x4]:1   param_1       
+                          XREF[1]:     10019b90(R)  
+  Engine.asm:58838:             undefined4        Stack[-0x4]:4  local_4       
+                          XREF[13]:    10019b0c(W), 
+  Engine.asm:58839:                                                            
+                                       10019b20(W), 
+  Engine.asm:58840:                                                            
+                                       10019b53(W), 
+  Engine.asm:58841:                                                            
+                                       10019b66(W), 
+  Engine.asm:58868:             undefined4        Stack[-0x78]:4 local_78      
+                          XREF[4]:     10019c0f(*), 
+  Engine.asm:58869:                                                            
+                                       10019c83(*), 
+  Engine.asm:58870:                                                            
+                                       10019ce6(R), 
+  Engine.asm:58871:                                                            
+                                       10019d15(R)  
+  Engine.asm:58872:             undefined4        Stack[-0x7c]:4 local_7c      
+                          XREF[3]:     10019ae2(W), 
+  Engine.asm:58873:                                                            
+                                       10019c87(W), 
+  Engine.asm:58874:                                                            
+                                       10019ccc(R)  
+  Engine.asm:58875:                             0x19ac0  2526  ?SwitchMenu@Engi
+neGame@@QAEX_N@Z
+  Engine.asm:58876:                             Ordinal_2526                   
+                 XREF[4]:     Entry Point(*), 
+  Engine.asm:58877:                             ?SwitchMenu@EngineGame@@QAEX_N@
+Z                             SwitchMagicBoard:100196cd(c), 
+> Engine.asm:58878:                             EngineGame::SwitchMenu         
+                              SwitchMapSelect:10019e4d(c), 
+  Engine.asm:58879:                                                            
+                              FUN_10063e60:10063e9e(c)  
+  Engine.asm:58880:        10019ac0 6a ff           PUSH       -0x1
+  Engine.asm:58881:        10019ac2 68 02 a3        PUSH       LAB_1024a302
+  Engine.asm:58882:                 24 10
+  Engine.asm:58883:        10019ac7 64 a1 00        MOV        EAX,FS:[0x0]=>Ex
+ceptionList                      = 00000000
+  Engine.asm:58884:                 00 00 00
+  Engine.asm:58885:        10019acd 50              PUSH       EAX
+  Engine.asm:58886:        10019ace 64 89 25        MOV        dword ptr FS:[0x
+0]=>ExceptionList,ESP            = 00000000
+  Engine.asm:58887:                 00 00 00 00
+  Engine.asm:58888:        10019ad5 83 ec 70        SUB        ESP,0x70
+  Engine.asm:59295:        10019e32 84 c9           TEST       this,this
+  Engine.asm:59296:        10019e34 8a 9c 24        MOV        BL,byte ptr [ESP
+ + param_1]
+  Engine.asm:59297:                 8c 00 00 00
+  Engine.asm:59298:        10019e3b 0f 84 ff        JZ         LAB_10019f40
+  Engine.asm:59299:                 00 00 00
+  Engine.asm:59300:        10019e41 84 db           TEST       BL,BL
+  Engine.asm:59301:        10019e43 0f 84 18        JZ         LAB_10019f61
+  Engine.asm:59302:                 01 00 00
+  Engine.asm:59303:        10019e49 6a 01           PUSH       0x1
+  Engine.asm:59304:        10019e4b 8b cf           MOV        this,EDI
+> Engine.asm:59305:        10019e4d e8 6e fc        CALL       EngineGame::Swit
+chMenu                           void SwitchMenu(EngineGame * thi
+  Engine.asm:59306:                 ff ff
+  Engine.asm:59307:                             LAB_10019e52                   
+                 XREF[2]:     10019f49(j), 10019f5c(j)  
+  Engine.asm:59308:        10019e52 b9 3c 57        MOV        this,GScript    
+                                 = <Empty-Structure>
+  Engine.asm:59309:                 bd 10
+  Engine.asm:59310:        10019e57 e8 74 a5        CALL       Script::GetTop  
+                                 int GetTop(Script * this)
+  Engine.asm:59311:                 0f 00
+  Engine.asm:59312:        10019e5c 8b f0           MOV        ESI,EAX
+  Engine.asm:59313:        10019e5e 8d 44 24 6c     LEA        EAX=>local_1c,[E
+SP + 0x6c]
+  Engine.asm:59314:        10019e62 50              PUSH       EAX
+  Engine.asm:59315:        10019e63 b9 3c 57        MOV        this,GScript    
+                                 = <Empty-Structure>
+  Engine.asm:201754:        10063e83 e8 08 02        CALL       Script::Script 
+                                  undefined Script(Script * this, 
+  Engine.asm:201755:                 0b 00
+  Engine.asm:201756:        10063e88 8b 0d 30        MOV        ECX,dword ptr [
+GEngine]                          = 00000000
+  Engine.asm:201757:                 57 bd 10
+  Engine.asm:201758:        10063e8e 8b 89 dc        MOV        ECX,dword ptr [
+ECX + 0xdc]
+  Engine.asm:201759:                 00 00 00
+  Engine.asm:201760:        10063e94 6a 01           PUSH       0x1
+  Engine.asm:201761:        10063e96 c7 44 24        MOV        dword ptr [ESP 
++ local_4],0x0
+  Engine.asm:201762:                 1c 00 00 
+  Engine.asm:201763:                 00 00
+> Engine.asm:201764:        10063e9e e8 1d 5c        CALL       EngineGame::Swi
+tchMenu                           void SwitchMenu(EngineGame * thi
+  Engine.asm:201765:                 fb ff
+  Engine.asm:201766:        10063ea3 8d 0c 24        LEA        ECX=>local_1c,[
+ESP]
+  Engine.asm:201767:        10063ea6 c7 44 24        MOV        dword ptr [ESP 
++ local_4],0xffffffff
+  Engine.asm:201768:                 18 ff ff 
+  Engine.asm:201769:                 ff ff
+  Engine.asm:201770:        10063eae e8 0d 08        CALL       Script::~Script
+                                  void ~Script(Script * this)
+  Engine.asm:201771:                 0b 00
+  Engine.asm:201772:        10063eb3 8b 4c 24 10     MOV        ECX,dword ptr [
+ESP + local_c]
+  Engine.asm:201773:        10063eb7 33 c0           XOR        EAX,EAX
+  Engine.asm:201774:        10063eb9 64 89 0d        MOV        dword ptr FS:[0
+x0]=>ExceptionList,ECX            = 00000000
+
+

@@ -1,0 +1,60 @@
+
+Painkiller.asm:6164:        0040215c 8b 3d 0c        MOV        EDI,dword ptr [
+->USER32.DLL::SendMessageA]       = 0008affc
+Painkiller.asm:6166:        00402162 68 ff 00        PUSH       0xff           
+                                  LPARAM lParam for SendMessageA
+Painkiller.asm:6168:        00402167 68 ff 00        PUSH       0xff           
+                                  WPARAM wParam for SendMessageA
+Painkiller.asm:6170:        0040216c 68 b1 00        PUSH       0xb1           
+                                  UINT Msg for SendMessageA
+Painkiller.asm:6172:        00402171 51              PUSH       ECX            
+                                  HWND hWnd for SendMessageA
+Painkiller.asm:6173:        00402172 ff d7           CALL       EDI=>USER32.DLL
+::SendMessageA
+Painkiller.asm:6175:        00402177 6a 00           PUSH       0x0            
+                                  LPARAM lParam for SendMessageA
+Painkiller.asm:6176:        00402179 6a 00           PUSH       0x0            
+                                  WPARAM wParam for SendMessageA
+Painkiller.asm:6177:        0040217b 68 b7 00        PUSH       0xb7           
+                                  UINT Msg for SendMessageA
+Painkiller.asm:6179:        00402180 52              PUSH       EDX            
+                                  HWND hWnd for SendMessageA
+Painkiller.asm:6180:        00402181 ff d7           CALL       EDI=>USER32.DLL
+::SendMessageA
+Painkiller.asm:16221:        00405ada ff 15 3c        CALL       dword ptr [->E
+NGINE.DLL::Pathfinder::ConnectDi   = 0008a1fa
+Painkiller.asm:22632:        004091e9 6a 00           PUSH       0x0           
+                                   LPARAM lParam for SendMessageA
+Painkiller.asm:22633:        004091eb 6a 00           PUSH       0x0           
+                                   WPARAM wParam for SendMessageA
+Painkiller.asm:22634:        004091ed 68 88 01        PUSH       0x188         
+                                   UINT Msg for SendMessageA
+Painkiller.asm:22636:        004091f2 50              PUSH       EAX           
+                                   HWND hWnd for SendMessageA
+Painkiller.asm:22637:        004091f3 ff 15 0c        CALL       dword ptr [->U
+SER32.DLL::SendMessageA]           = 0008affc
+Painkiller.asm:22874:        00409426 50              PUSH       EAX           
+                                   LPARAM lParam for SendMessageA
+Painkiller.asm:22875:        00409427 6a ff           PUSH       -0x1          
+                                   WPARAM wParam for SendMessageA
+Painkiller.asm:22876:        00409429 68 8c 01        PUSH       0x18c         
+                                   UINT Msg for SendMessageA
+Painkiller.asm:22878:        0040942e 52              PUSH       EDX           
+                                   HWND hWnd for SendMessageA
+Painkiller.asm:22879:        0040942f ff 15 0c        CALL       dword ptr [->U
+SER32.DLL::SendMessageA]           = 0008affc
+Painkiller.asm:22974:        004094c0 b8 34 10        MOV        EAX,PTR_s_CCon
+nectWayPointsDlg_00471034          = 00471050
+Painkiller.asm:24164:        00409c98 6a 00           PUSH       0x0           
+                                   LPARAM lParam for SendMessageA
+Painkiller.asm:24165:        00409c9a 6a 00           PUSH       0x0           
+                                   WPARAM wParam for SendMessageA
+Painkiller.asm:24169:        00409ca4 68 47 01        PUSH       0x147         
+                                   UINT Msg for SendMessageA
+Painkiller.asm:24171:        00409ca9 50              PUSH       EAX           
+                                   HWND hWnd for SendMessageA
+Painkiller.asm:24172:        00409caa ff 15 0c        CALL       dword ptr [->U
+SER32.DLL::SendMessageA]           = 0008affc
+Painkiller.asm:24320:        00409de9 8b 3d 0c        MOV        EDI,dword ptr 
+[->USER32.DLL::SendMessageA]       = 0008affc
+Painkiller.asm:24322:        00409def 68 2c 17        PUSH       s_640x480_0047

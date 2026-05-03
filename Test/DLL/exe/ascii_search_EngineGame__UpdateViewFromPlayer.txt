@@ -1,0 +1,65 @@
+
+  Engine.asm:58641:                             void __thiscall UpdateViewFromP
+layer(EngineGame * this, 
+  Engine.asm:58642:                               assume FS_OFFSET = 0xffdff000
+  Engine.asm:58643:             void              <VOID>         <RETURN>
+  Engine.asm:58644:             EngineGame *      ECX:4 (auto)   this
+  Engine.asm:58645:             Entity *          Stack[0x4]:4   param_1
+  Engine.asm:58646:             float             Stack[0x8]:4   param_2
+  Engine.asm:58647:             undefined1        Stack[-0x18]:1 local_18      
+                          XREF[1]:     100198f1(*)  
+  Engine.asm:58648:                             0x198d0  2617  ?UpdateViewFromP
+layer@EngineGame@@QAEXPAVEntit
+  Engine.asm:58649:                             Ordinal_2617                   
+                 XREF[2]:     Entry Point(*), 
+  Engine.asm:58650:                             ?UpdateViewFromPlayer@EngineGam
+e@@QAEXPAVEntit               FUN_1010a7e0:1010a860(c)  
+> Engine.asm:58651:                             EngineGame::UpdateViewFromPlaye
+r
+  Engine.asm:58652:        100198d0 83 ec 3c        SUB        ESP,0x3c
+  Engine.asm:58653:        100198d3 a1 30 57        MOV        EAX,[GEngine]   
+                                 = 00000000
+  Engine.asm:58654:                 bd 10
+  Engine.asm:58655:        100198d8 53              PUSH       EBX
+  Engine.asm:58656:        100198d9 56              PUSH       ESI
+  Engine.asm:58657:        100198da 8b f1           MOV        ESI,this
+  Engine.asm:58658:        100198dc 8b 88 e8        MOV        this,dword ptr [
+EAX + 0xe8]
+  Engine.asm:58659:                 00 00 00
+  Engine.asm:58660:        100198e2 57              PUSH       EDI
+  Engine.asm:58661:        100198e3 8b b9 94        MOV        EDI,dword ptr [t
+his + 0x460194]
+  Engine.asm:558190:        1010a847 8d 4c 24 0c     LEA        ECX=>local_1c,[
+ESP + 0xc]
+  Engine.asm:558191:        1010a84b e8 40 9b        CALL       Script::GetFloa
+t                                 float GetFloat(Script * this, in
+  Engine.asm:558192:                 00 00
+  Engine.asm:558193:        1010a850 a1 30 57        MOV        EAX,[GEngine]  
+                                  = 00000000
+  Engine.asm:558194:                 bd 10
+  Engine.asm:558195:        1010a855 51              PUSH       ECX
+  Engine.asm:558196:        1010a856 8b 88 dc        MOV        ECX,dword ptr [
+EAX + 0xdc]
+  Engine.asm:558197:                 00 00 00
+  Engine.asm:558198:        1010a85c d9 1c 24        FSTP       dword ptr [ESP]
+=>local_24
+  Engine.asm:558199:        1010a85f 56              PUSH       ESI
+> Engine.asm:558200:        1010a860 e8 6b f0        CALL       EngineGame::Upd
+ateViewFromPlayer                 void UpdateViewFromPlayer(Engine
+  Engine.asm:558201:                 f0 ff
+  Engine.asm:558202:                             LAB_1010a865                  
+                  XREF[1]:     1010a841(j)  
+  Engine.asm:558203:        1010a865 5e              POP        ESI
+  Engine.asm:558204:                             LAB_1010a866                  
+                  XREF[2]:     1010a82b(j), 1010a833(j)  
+  Engine.asm:558205:        1010a866 8d 0c 24        LEA        ECX=>local_1c,[
+ESP]
+  Engine.asm:558206:        1010a869 c7 44 24        MOV        dword ptr [ESP 
++ local_4],0xffffffff
+  Engine.asm:558207:                 18 ff ff 
+  Engine.asm:558208:                 ff ff
+  Engine.asm:558209:        1010a871 e8 4a 9e        CALL       Script::~Script
+                                  void ~Script(Script * this)
+  Engine.asm:558210:                 00 00
+
+
